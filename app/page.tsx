@@ -576,7 +576,7 @@ export default function Home() {
             ))}
           </nav>
 
-          <BrutalButton href="https://github.com/" variant="black">
+          <BrutalButton href="https://github.com/J0hnux" variant="black">
             GitHub ↗
           </BrutalButton>
         </div>
