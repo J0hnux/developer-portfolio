@@ -558,10 +558,10 @@ export default function Home() {
         <div className="mx-auto flex max-w-[1500px] flex-wrap items-center justify-between gap-5 px-5 py-5 lg:px-10">
           <a href="#" className="flex items-center gap-4">
             <span className="flex h-11 w-11 items-center justify-center border-2 border-black bg-[#d8ff31] font-mono text-xl font-black shadow-[3px_3px_0_#000]">
-              JC.
+              C.
             </span>
 
-            <span className="text-xl font-black uppercase">John </span>
+            <span className="text-xl font-black uppercase">Clark </span>
           </a>
 
           <nav className="hidden items-center gap-8 md:flex">
@@ -885,7 +885,7 @@ export default function Home() {
                 <div className="relative aspect-square overflow-hidden border-2 border-black bg-[#c4a7ff]">
                   <Image
                     src="/profile.jpg"
-                    alt="Portrait of John"
+                    alt="Portrait of John Clark"
                     fill
                     sizes="160px"
                     className="object-cover object-center"
@@ -933,7 +933,7 @@ export default function Home() {
 
                 <div className="mt-8 space-y-3">
                   <a
-                    href="mailto:john.dev@example.com"
+                    href="mailto:jc24.doliente@gmail.com"
                     className="block border-2 border-black bg-[#fffdf8] px-4 py-3 font-mono text-xs shadow-[3px_3px_0_#000]"
                   >
                     ✉ jc24.doliente@gmail.com
@@ -982,7 +982,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t-2 border-black bg-black text-white">
         <div className="mx-auto flex max-w-[1500px] flex-col gap-4 px-5 py-6 font-mono text-[10px] font-black uppercase sm:flex-row sm:items-center sm:justify-between lg:px-10">
-          <p>© 2026 John Clark. All rights reserved.</p>
+          <p>© 2026 Clark. All rights reserved.</p>
 
           <p>
             Built with Next.js + Tailwind CSS{" "}
