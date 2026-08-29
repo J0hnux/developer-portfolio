@@ -734,13 +734,16 @@ export default function Home() {
               </div>
 
               <div className="mt-10 flex flex-wrap gap-4">
-                <BrutalButton href="#" variant="orange">
+                <BrutalButton
+                  href="https://paninda-hub.vercel.app/"
+                  variant="orange"
+                >
                   Live Site ↗
                 </BrutalButton>
 
-                <BrutalButton href="https://github.com/" variant="black">
+                <BrutalButton href="https://github.com/J0hnux" variant="black">
                   <span className="flex items-center gap-3">
-                    <GithubIcon /> Source
+                    <GithubIcon /> Request Access
                   </span>
                 </BrutalButton>
               </div>
