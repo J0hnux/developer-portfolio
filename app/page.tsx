@@ -86,10 +86,12 @@ function BrutalButton({
   children,
   href,
   variant = "purple",
+  newTab = false,
 }: {
   children: React.ReactNode;
   href: string;
   variant?: "purple" | "orange" | "black" | "white";
+  newTab?: boolean;
 }) {
   const variants = {
     purple: "bg-[#8b5cf6] text-black",
@@ -101,6 +103,8 @@ function BrutalButton({
   return (
     <a
       href={href}
+      target={newTab ? "_blank" : undefined}
+      rel={newTab ? "noreferrer" : undefined}
       className={`
         inline-flex items-center justify-center
         border-2 border-black
@@ -576,9 +580,23 @@ export default function Home() {
             ))}
           </nav>
 
-          <BrutalButton href="https://github.com/J0hnux" variant="black">
-            GitHub ↗
-          </BrutalButton>
+          <div className="flex items-center gap-3">
+            <BrutalButton
+              href="https://drive.google.com/file/d/1M0KV1_xOqkff4f3xC4cfF21egK5ii6AP/view?usp=sharing"
+              variant="purple"
+              newTab
+            >
+              Resume ↗
+            </BrutalButton>
+
+            <BrutalButton
+              href="https://github.com/J0hnux"
+              variant="black"
+              newTab
+            >
+              GitHub ↗
+            </BrutalButton>
+          </div>
         </div>
       </header>
 
