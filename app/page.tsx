@@ -585,7 +585,11 @@ export default function Home() {
       {/* Hero */}
       <section className="mx-auto grid max-w-[1500px] gap-14 px-5 py-16 lg:grid-cols-[0.85fr_1.15fr] lg:px-10 lg:py-24">
         <div className="flex flex-col justify-center">
-          <p className="mb-5 font-mono text-xs font-black uppercase text-[#7045e8]">
+          <p className="font-mono text-sm font-black uppercase tracking-[0.12em] text-black">
+            Hi, I&apos;m John Clark Doliente.
+          </p>
+
+          <p className="mb-5 mt-2 font-mono text-xs font-black uppercase text-[#7045e8]">
             Full Stack Developer
           </p>
 

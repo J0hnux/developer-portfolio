@@ -5,3 +5,4 @@
 - Custom responsive commerce dashboard preview
 - Project technology, feature, role, audience, and deployment details
 - Personal profile photo in the About Me section
+- Hero introduction with the developer name and role
